@@ -13,8 +13,6 @@
       border-radius:12px;
       border-left:4px solid #4f9cff;
     }
-    .year { color:#4f9cff; font-weight:bold;}
-
     .role { color:#4f9cff; font-weight:bold;}
   </style>
 </head>
@@ -22,10 +20,9 @@
 
 <section>
 <h1>Experience</h1>
-
+<div class="role">Dec, 2023 --June, 2026</div>
 <div class="card">
   <h3>Research and Development Software Engineer - 2 </h3>
-
   <p class="role"> C,C++, System Software -- Dec,2023-June,2026</p>
   <p>
     - Contributed to Operation Technology(OT) logic development, improving
@@ -37,14 +34,26 @@ performance and reliability of OEM software systems.<br>
     - Maintains close working relationship with product owner and junior developer and guide them in their code review.
   </p>
 </div>
-
+  
+<div class="role">July, 2020 -- August, 2023</div>
 <div class="card">
-  <h3>Backend Development (Learning & Projects)</h3>
-  <p class="role">Java • Spring Boot</p>
+  <h3>Research Development Engineer </h3>
+  <p class="role">C,C++,Hardware Security</p>
   <p>
-    - Built REST APIs with authentication<br>
-    - Designed scalable backend systems<br>
-    - Learning system design principles
+    - Designed and validated off-chip SRAM-based Physically Unclonable Function (PUF) achieving 99.97% reliability, 48.98%
+uniqueness, 56.64% uniformity — a silicon-level hardware fingerprinting primitive requiring no secret key storage, demonstrating
+intimate knowledge of silicon behavior<br>
+    - Redesigned DAPUF on Xilinx Cora Z7 FPGA using Verilog HDL, optimizing quality metrics and power footprint for resource-constrained
+targets comparable to SoC and custom ASIC environments<br>
+    - Engineered PReFeR remote attestation protocol for IoT device authentication using PUF-rooted hardware trust — published
+in ACM TECS Vol. 22, No. 5 and presented at CASES@ESWEEK 2023 — proving ability to architect secure, silicon-anchored
+software protocols.<br>
+    - Implemented bare-metal SPI driver stack in C for SRAM 23LC1024, MCP3008 ADC, and Raspberry Pi 4 (ARM Cortex-A72),
+enabling low-level peripheral control without OS abstraction layers — the exact low-level firmware skills required for ASIC bring-up<br>
+    - Deployed and maintained Yocto Linux BSP on Cora Z7, managing kernel configurations, custom device trees, and board support
+packages — directly transferable to silicon bring-up and platform SW development<br>
+    - Designed end-to-end secure electrical energy meter: SRAM PUF as hardware root-of-trust + mutual authentication + ECDH key
+exchange — a production-ready secure node architecture.<br>
   </p>
 </div>
 
